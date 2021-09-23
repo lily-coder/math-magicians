@@ -7,7 +7,7 @@
 - Read a random math-related quote.
 - Enable users to perform all math operations.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Calculator.PNG)
 
 ## Built With
 
