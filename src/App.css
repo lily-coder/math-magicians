@@ -8,6 +8,10 @@ body {
   margin: auto;
 }
 
+.d-none {
+  display: none;
+}
+
 .calculator-container {
   width: 100%;
 }
