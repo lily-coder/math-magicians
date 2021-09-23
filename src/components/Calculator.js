@@ -1,42 +1,43 @@
 /* eslint no-unused-vars: 0 no-undef: 0 */
-import React from 'react';
+import React, { Component } from 'react';
 import '../App.css';
 
-export default function Calculator() {
-  return (
-    <div class='calculator-container'>
-      <div>
-        <button class='calc-row-one'>0</button>
+class Calculator extends Component {
+  render() {
+    return (
+      <div class='calculator-container'>
+        <div class='calc-row-two'>
+          <button name='AC' onClick={(e) => this.props.onClick(e.target.name)}>AC</button>
+          <button name='+/-' onClick={(e) => this.props.onClick(e.target.name)}>+/-</button>
+          <button name='%' onClick={(e) => this.props.onClick(e.target.name)}>%</button>
+          <button name='/' class='orange' onClick={(e) => this.props.onClick(e.target.name)}>&#0247;</button>
+        </div>
+        <div class='calc-row-three'>
+          <button name='7' onClick={(e) => this.props.onClick(e.target.name)}>7</button>
+          <button name='8' onClick={(e) => this.props.onClick(e.target.name)}>8</button>
+          <button name='9' onClick={(e) => this.props.onClick(e.target.name)}>9</button>
+          <button name='*' class='orange' onClick={(e) => this.props.onClick(e.target.name)}>&#0215;</button>
+        </div>
+        <div class='calc-row-four'>
+          <button name='4' onClick={(e) => this.props.onClick(e.target.name)}>4</button>
+          <button name='5' onClick={(e) => this.props.onClick(e.target.name)}>5</button>
+          <button name='6' onClick={(e) => this.props.onClick(e.target.name)}>6</button>
+          <button name='-' class='orange' onClick={(e) => this.props.onClick(e.target.name)}>-</button>
+        </div>
+        <div class='calc-row-five'>
+          <button name='1' onClick={(e) => this.props.onClick(e.target.name)}>1</button>
+          <button name='2' onClick={(e) => this.props.onClick(e.target.name)}>2</button>
+          <button name='3' onClick={(e) => this.props.onClick(e.target.name)}>3</button>
+          <button name='+' class='orange' onClick={(e) => this.props.onClick(e.target.name)}>+</button>
+        </div>
+        <div class='calc-row-six'>
+          <button name='0' class='zero' onClick={(e) => this.props.onClick(e.target.name)}>0</button>
+          <button name='.' class='dot' onClick={(e) => this.props.onClick(e.target.name)}>.</button>
+          <button name='=' class='equal orange' onClick={(e) => this.props.onClick(e.target.name)}>=</button>
+        </div>
       </div>
-      <div class='calc-row-two'>
-        <button>AC</button>
-        <button>+/-</button>
-        <button>%</button>
-        <button class='orange'>&#0247;</button>
-      </div>
-      <div class='calc-row-three'>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class='orange'>&#0215;</button>
-      </div>
-      <div class='calc-row-four'>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class='orange'>-</button>
-      </div>
-      <div class='calc-row-five'>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class='orange'>+</button>
-      </div>
-      <div class='calc-row-six'>
-        <button class='zero'>0</button>
-        <button class='dot'>.</button>
-        <button class='equal orange'>=</button>
-      </div>
-    </div>
-  );
+    );
+  }
 }
+
+export default Calculator;
