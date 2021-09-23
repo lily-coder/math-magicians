@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+/* eslint no-unused-vars: 0 no-undef: 0 */
+import React, { Component } from 'react';
 import './App.css';
+import Calculator from './components/Calculator.js';
+import Answer from './components/Answer.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      answer: '0',
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <div class='calculator-container'>
+          <Calculator onClick={this.onClick}/>
+          <Answer answer={this.state.answer}/>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
