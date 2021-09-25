@@ -20,13 +20,6 @@ body {
   padding-top: 3rem;
 }
 
-button {
-  height: 3rem;
-  border: 1px solid rgba(128, 128, 128, 0.712);
-  border-bottom: none;
-  border-right: none;
-}
-
 .answer {
   width: 30vw;
   display: flex;
@@ -39,6 +32,15 @@ button {
   position: absolute;
 }
 
+button {
+  height: 3rem;
+  border: 1px solid rgba(128, 128, 128, 0.712);
+  border-bottom: none;
+  border-right: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
 .calc-row-one p {
   padding-right: 0.5rem;
 }
@@ -48,14 +50,46 @@ button {
 .calc-row-four button,
 .calc-row-five button,
 .calc-row-six button {
+  width: 33%;
+  cursor: pointer;
+}
+
+.calc-row-two {
+  align-items: flex-start;
+  text-align: left;
+  padding-bottom: 0%;
+  cursor: pointer;
+  z-index: 999;
+  width: 100%;
+}
+
+.calc-row-two button {
   width: 25%;
+}
+
+.calc-row-two .divide {
+  width: 7.5%;
+  margin-bottom: 0%;
+  padding: 0%;
+  margin-top: 0%;
+  position: absolute;
+  background-color: orange;
 }
 
 .calc-row-six {
   display: flex;
   width: 30vw;
-  justify-content: space-between;
   border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+}
+
+.equal-container {
+  width: 30vw;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  height: 3rem;
+  align-items: flex-end;
+  border-bottom: none;
 }
 
 .calc-row-six .zero {
@@ -69,4 +103,52 @@ button {
 
 .orange {
   background-color: orange;
+  cursor: pointer;
+}
+
+.orange-right {
+  align-self: flex-end;
+  text-align: right;
+  margin: 0%;
+  width: 25%;
+  padding: 0%;
+  margin-left: 0%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.orange-right button {
+  width: 100%;
+}
+
+.numbers-container {
+  position: absolute;
+  margin: 0%;
+  margin-top: 96px;
+  padding: 0%;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  width: 22.7%;
+  z-index: 999;
+}
+
+.numbers-six,
+.numbers-five,
+.numbers-four,
+.numbers-three {
+  margin: 0%;
+  width: 100%;
+}
+
+.numbers-six {
+  display: flex;
+}
+
+.numbers-six .zero {
+  width: 66%;
+}
+
+.numbers-six .dot {
+  width: 34%;
 }
