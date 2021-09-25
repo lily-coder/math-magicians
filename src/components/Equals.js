@@ -2,27 +2,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Equal extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-    this.state = {};
-  }
-
-  handleClick = (e) => {
-    const { handleClick } = this.props;
+const Equal = (props) => {
+  const handleClick = (e) => {
+    const { handleClick } = props;
     handleClick(e.target.value);
-  }
+  };
 
-  render = () => {
-    const r = '';
-    return (
+  return (
         <div className='calc-row-six equal-container'>
-        <button value='=' className='equal orange' onClick={this.handleClick}>=</button>
+        <button value='=' className='equal orange' onClick={handleClick}>=</button>
       </div>
-    );
-  }
-}
+  );
+};
 
 Equal.propTypes = { handleClick: PropTypes.func };
 

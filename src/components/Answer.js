@@ -19,22 +19,16 @@ const current = (total, next) => {
   return isNull(next);
 };
 
-class Answer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Answer = (props) => {
+  const { total, next } = props;
 
-  render = () => {
-    const { total } = this.props;
-    const { next } = this.props;
-    return (
+  return (
       <div className='calc-row-one answer'>
         <p>{ current(total, next) }</p>
       </div>
-    );
-  }
-}
+  );
+};
+
 Answer.defaultProps = {
   total: null,
   next: null,

@@ -79,6 +79,10 @@ export default function calculate(obj, buttonName) {
     return { ...obj, operation: buttonName };
   }
 
+  if (!obj.next) {
+    return { operation: buttonName };
+  }
+
   if (obj.operation) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
@@ -89,10 +93,6 @@ export default function calculate(obj, buttonName) {
       next: null,
       operation: buttonName,
     };
-  }
-
-  if (!obj.next) {
-    return { operation: buttonName };
   }
 
   return {
