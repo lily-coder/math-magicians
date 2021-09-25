@@ -32,6 +32,15 @@ body {
   position: absolute;
 }
 
+button {
+  height: 3rem;
+  border: 1px solid rgba(128, 128, 128, 0.712);
+  border-bottom: none;
+  border-right: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
 .calc-row-one p {
   padding-right: 0.5rem;
 }
@@ -58,7 +67,7 @@ body {
   width: 25%;
 }
 
-.calc-row-two .divide{
+.calc-row-two .divide {
   width: 7.5%;
   margin-bottom: 0%;
   padding: 0%;
@@ -136,19 +145,10 @@ body {
   display: flex;
 }
 
-.numbers-six .zero{
+.numbers-six .zero {
   width: 66%;
 }
 
-.numbers-six .dot{
+.numbers-six .dot {
   width: 34%;
-}
-
-button {
-  height: 3rem;
-  border: 1px solid rgba(128, 128, 128, 0.712);
-  border-bottom: none;
-  border-right: none;
-  cursor: pointer;
-  z-index: 999;
 }
