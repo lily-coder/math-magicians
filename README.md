@@ -14,10 +14,10 @@
 - JavaScript
 - React
 - Html5 and Css3
-<!-- 
+
 ## Live Demo
 
-[Live Demo Link](https://lily-coder.github.io/math-magicians/) -->
+[Live Demo Link](https://lily-coder.github.io/math-magicians/)
 
 
 ## Getting Started
