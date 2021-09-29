@@ -1,12 +1,16 @@
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100vw;
   min-height: 100vh;
   margin: auto;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  background-color: #0d2633e1;
+  color: white;
+  font-family:
+    "Comic Sans MS",
+    sans-serif;
 }
 
 .d-none {
@@ -21,15 +25,16 @@ body {
 }
 
 .answer {
-  width: 30vw;
+  width: 29.8vw;
   display: flex;
   align-items: center;
   justify-content: right;
-  background-color: grey;
+  background-color: #0d263300;
   color: white;
   margin: 0.2rem auto;
   height: 3rem;
   position: absolute;
+  border: 1px solid white;
 }
 
 button {
@@ -98,7 +103,7 @@ button {
 
 .calc-row-six .dot,
 .calc-row-six .equal {
-  width: 25%;
+  width: 25.1%;
 }
 
 .orange {
@@ -110,7 +115,7 @@ button {
   align-self: flex-end;
   text-align: right;
   margin: 0%;
-  width: 25%;
+  width: 25.5%;
   padding: 0%;
   margin-left: 0%;
   cursor: pointer;
@@ -151,4 +156,63 @@ button {
 
 .numbers-six .dot {
   width: 34%;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+}
+
+.navbar li {
+  margin: 0% 1rem;
+}
+
+.math-magicians-header {
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  font-size: 3rem;
+  color: orange;
+}
+
+.home-content {
+  text-align: left;
+  margin: 0% 3rem;
+}
+
+.home-h2 {
+  margin-top: 10rem;
+  color: orange;
+}
+
+.calc-contain {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.calc-header {
+  margin: 0% 3rem;
+  position: absolute;
+  left: 0%;
+  color: orange;
+}
+
+.quote-content {
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  margin: auto;
+  top: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
 }

@@ -7,18 +7,17 @@
 - Read a random math-related quote.
 - Enable users to perform all math operations.
 
-![screenshot](./Calculator.PNG)
+![screenshot](./Calculate.PNG)
 
 ## Built With
 
 - JavaScript
 - React
 - Html5 and Css3
-<!-- 
+
 ## Live Demo
 
-[Live Demo Link](https://lily-coder.github.io/math-magicians/) -->
-
+[Live Demo Link](https://lily-coder.github.io/math-magicians/)
 
 ## Getting Started
 
