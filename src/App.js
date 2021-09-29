@@ -66,7 +66,7 @@ const App = () => {
             </div>
           </div>
         </Route>
-        <Route path='/home'>
+        <Route path='/'>
           <Home />
         </Route>
         <Route path='/quote'>

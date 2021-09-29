@@ -1,15 +1,13 @@
 /* eslint no-unused-vars: 0 no-undef: 0 */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { MdClose } from 'react-icons/md/index.js';
-import { FiMenu } from 'react-icons/fi/index.js';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const links = [
     {
       id: 1,
-      path: '/home',
+      path: '/',
       text: 'Home',
     },
     {
