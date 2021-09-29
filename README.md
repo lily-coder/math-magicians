@@ -19,7 +19,6 @@
 
 [Live Demo Link](https://lily-coder.github.io/math-magicians/)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
