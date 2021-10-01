@@ -5,7 +5,6 @@
   "homepage": "https://lily-coder.github.io/math-magicians",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "big.js": "^6.1.1",
     "gh-pages": "^3.2.3",
@@ -44,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.7",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.1"
