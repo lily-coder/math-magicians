@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator Component renders correctly 1`] = `
+<div
+  className="calculator-container"
+>
+  <div
+    className="calc-row-two"
+  >
+    <button
+      className="operator"
+      onClick={[Function]}
+      value="AC"
+    >
+      AC
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      value="+/-"
+    >
+      +/-
+    </button>
+    <button
+      className="operator"
+      onClick={[Function]}
+      value="%"
+    >
+      %
+    </button>
+    <button
+      className="divide operator"
+      onClick={[Function]}
+      value="÷"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    className="calc-row-three orange-right"
+  >
+    <button
+      className="orange operator"
+      onClick={[Function]}
+      value="x"
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="calc-row-four orange-right"
+  >
+    <button
+      className="orange operator"
+      onClick={[Function]}
+      value="-"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="calc-row-five orange-right"
+  >
+    <button
+      className="orange operator"
+      onClick={[Function]}
+      value="+"
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

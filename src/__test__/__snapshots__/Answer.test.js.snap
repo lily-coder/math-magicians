@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Answer Correctly renders Answer component 1`] = `
+<div
+  className="calc-row-one answer"
+>
+  <p>
+    0
+  </p>
+</div>
+`;

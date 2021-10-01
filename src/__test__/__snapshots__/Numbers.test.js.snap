@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Numbers Component correctly 1`] = `
+<div
+  className="calculator-container numbers-container"
+>
+  <div
+    className="calc-row-five numbers-five"
+  >
+    <button
+      onClick={[Function]}
+      value="1"
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+      value="2"
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+      value="3"
+    >
+      3
+    </button>
+  </div>
+  <div
+    className="calc-row-four numbers-four"
+  >
+    <button
+      onClick={[Function]}
+      value="4"
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+      value="5"
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+      value="6"
+    >
+      6
+    </button>
+  </div>
+  <div
+    className="calc-row-three numbers-three"
+  >
+    <button
+      onClick={[Function]}
+      value="7"
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+      value="8"
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+      value="9"
+    >
+      9
+    </button>
+  </div>
+  <div
+    className="calc-row-six numbers-six"
+  >
+    <button
+      className="zero"
+      onClick={[Function]}
+      value="0"
+    >
+      0
+    </button>
+    <button
+      className="dot"
+      onClick={[Function]}
+      value="."
+    >
+      .
+    </button>
+  </div>
+</div>
+`;
