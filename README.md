@@ -17,7 +17,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://lily-coder.github.io/math-magicians/)
+[Github Live Demo](https://lily-coder.github.io/math-magicians/)
+[Heroku Live Demo](https://math-mag.herokuapp.com/home)
+[Netlify Live Demo](https://focused-kirch-4d3870.netlify.app/)
 
 ## Getting Started
 
